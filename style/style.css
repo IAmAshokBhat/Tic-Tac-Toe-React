@@ -1,0 +1,44 @@
+.board{
+    float: left;
+    position: relative;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: #eee;
+    border: 1px solid #a4a3a3;
+    cursor: pointer;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: bold;
+}
+.b-row{
+    clear: left;
+    float: left;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    top: 0;
+    left: 0;
+    cursor: no-drop;
+}
+.result{
+    clear: left;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.hidden{
+    display: none;
+}
+.game{
+    margin: 0 auto;
+    width: 300px;
+}
+.text-center {
+    margin: 0 auto;
+    text-align: center;
+}
